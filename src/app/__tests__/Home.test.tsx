@@ -3,6 +3,7 @@ import userEvent from '@testing-library/user-event'
 import Home from '../page'
 import { server } from '@/mocks/server'
 import { rest } from 'msw'
+import { describe, it } from 'node:test'
 
 describe('Home', () => {
 
@@ -119,3 +120,7 @@ describe('Home', () => {
     })
 
 })
+
+function expect(input: HTMLElement) {
+	throw new Error('Function not implemented.')
+}
